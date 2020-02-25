@@ -1,0 +1,817 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 243,
+    "items": [
+     {
+      "kind": "books#volume",
+      "id": "QdX94z_OoukC",
+      "etag": "OpsIphIIIIw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QdX94z_OoukC",
+      "volumeInfo": {
+       "title": "Hatchet",
+       "authors": [
+        "Gary Paulsen"
+       ],
+       "publisher": "Simon and Schuster",
+       "publishedDate": "2009-08-25",
+       "description": "Celebrate the thirtieth anniversary of the Newbery Honor–winning survival novel Hatchet with a pocket-sized edition perfect for travelers to take along on their own adventures. This special anniversary edition includes a new introduction and commentary by author Gary Paulsen, pen-and-ink illustrations by Drew Willis, and a water resistant cover. Hatchet has also been nominated as one of America’s best-loved novels by PBS’s The Great American Read. Thirteen-year-old Brian Robeson, haunted by his secret knowledge of his mother’s infidelity, is traveling by single-engine plane to visit his father for the first time since the divorce. When the plane crashes, killing the pilot, the sole survivor is Brian. He is alone in the Canadian wilderness with nothing but his clothing, a tattered windbreaker, and the hatchet his mother had given him as a present. At first consumed by despair and self-pity, Brian slowly learns survival skills—how to make a shelter for himself, how to hunt and fish and forage for food, how to make a fire—and even finds the courage to start over from scratch when a tornado ravages his campsite. When Brian is finally rescued after fifty-four days in the wild, he emerges from his ordeal with new patience and maturity, and a greater understanding of himself and his parents.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781442403321"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1442403322"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": false
+       },
+       "pageCount": 192,
+       "printType": "BOOK",
+       "categories": [
+        "Juvenile Fiction"
+       ],
+       "averageRating": 4.0,
+       "ratingsCount": 265,
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": true,
+       "contentVersion": "1.29.24.0.preview.2",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=QdX94z_OoukC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=QdX94z_OoukC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.com/books?id=QdX94z_OoukC&printsec=frontcover&dq=intitle:hatchet&hl=&cd=1&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=QdX94z_OoukC&source=gbs_api",
+       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=QdX94z_OoukC"
+      },
+      "saleInfo": {
+       "country": "US",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 9.99,
+        "currencyCode": "USD"
+       },
+       "retailPrice": {
+        "amount": 8.99,
+        "currencyCode": "USD"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=QdX94z_OoukC&rdid=book-QdX94z_OoukC&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 9990000.0,
+          "currencyCode": "USD"
+         },
+         "retailPrice": {
+          "amountInMicros": 8990000.0,
+          "currencyCode": "USD"
+         },
+         "giftable": true
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "US",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.com/books/download/Hatchet-sample-epub.acsm?id=QdX94z_OoukC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=QdX94z_OoukC&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "This special anniversary edition includes a new introduction and commentary by author Gary Paulsen, pen-and-ink illustrations by Drew Willis, and a water resistant cover."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "dcKh8NPu7_IC",
+      "etag": "YSGXLWDQbzM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/dcKh8NPu7_IC",
+      "volumeInfo": {
+       "title": "A Man Called Hatchet Jack",
+       "authors": [
+        "Katie Meade"
+       ],
+       "publisher": "Katie  Meade",
+       "publishedDate": "2011-08-31",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_10",
+         "identifier": "0615517501"
+        },
+        {
+         "type": "ISBN_13",
+         "identifier": "9780615517506"
+        }
+       ],
+       "readingModes": {
+        "text": false,
+        "image": true
+       },
+       "pageCount": 16,
+       "printType": "BOOK",
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": false,
+       "contentVersion": "0.3.2.0.preview.1",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=dcKh8NPu7_IC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=dcKh8NPu7_IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.com/books?id=dcKh8NPu7_IC&printsec=frontcover&dq=intitle:hatchet&hl=&cd=2&source=gbs_api",
+       "infoLink": "http://books.google.com/books?id=dcKh8NPu7_IC&dq=intitle:hatchet&hl=&source=gbs_api",
+       "canonicalVolumeLink": "https://books.google.com/books/about/A_Man_Called_Hatchet_Jack.html?hl=&id=dcKh8NPu7_IC"
+      },
+      "saleInfo": {
+       "country": "US",
+       "saleability": "NOT_FOR_SALE",
+       "isEbook": false
+      },
+      "accessInfo": {
+       "country": "US",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": false
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=dcKh8NPu7_IC&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "vmQb2aR8EDwC",
+      "etag": "g5Mk5NQqkf8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/vmQb2aR8EDwC",
+      "volumeInfo": {
+       "title": "Billy Hatchet",
+       "authors": [
+        "Johann Wolfe Heisey"
+       ],
+       "publisher": "Dog Ear Publishing",
+       "publishedDate": "2011-08",
+       "description": "Billy Hatchet is a dark and twisted children's story that just goes to show not all children's books are meant for kids. Written in the rhythmic tone of Dr. Seuss with a dark setting resembling a Tim Burton film, Johann Wolfe Heisey captures a tale that will definitely gather a following.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781457505256"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1457505258"
+        }
+       ],
+       "readingModes": {
+        "text": false,
+        "image": true
+       },
+       "pageCount": 58,
+       "printType": "BOOK",
+       "categories": [
+        "Fiction"
+       ],
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": false,
+       "contentVersion": "0.1.0.0.preview.1",
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=vmQb2aR8EDwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=vmQb2aR8EDwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.com/books?id=vmQb2aR8EDwC&printsec=frontcover&dq=intitle:hatchet&hl=&cd=3&source=gbs_api",
+       "infoLink": "http://books.google.com/books?id=vmQb2aR8EDwC&dq=intitle:hatchet&hl=&source=gbs_api",
+       "canonicalVolumeLink": "https://books.google.com/books/about/Billy_Hatchet.html?hl=&id=vmQb2aR8EDwC"
+      },
+      "saleInfo": {
+       "country": "US",
+       "saleability": "NOT_FOR_SALE",
+       "isEbook": false
+      },
+      "accessInfo": {
+       "country": "US",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": false
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=vmQb2aR8EDwC&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "Billy Hatchet is a dark and twisted children&#39;s story that just goes to show not all children&#39;s books are meant for kids."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "voc5XDcy3EkC",
+      "etag": "RlletgPLeDw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/voc5XDcy3EkC",
+      "volumeInfo": {
+       "title": "Hatchet (Study Guide)",
+       "subtitle": "BookCaps Study Guide",
+       "authors": [
+        "BookCaps Study Guides Staff"
+       ],
+       "publisher": "BookCaps Study Guides",
+       "publishedDate": "2012",
+       "description": "The perfect companion to Gary Paulsen’s \"Hatchet,\" this study guide contains a chapter by chapter analysis of the book, a summary of the plot, and a guide to major characters and themes. BookCapTM Study Guides do not contain text from the actual book, and are not meant to be purchased as alternatives to reading the book. We all need refreshers every now and then. Whether you are a student trying to cram for that big final, or someone just trying to understand a book more, BookCaps can help. We are a small, but growing company, and are adding titles every month.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781621071631"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1621071634"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": true
+       },
+       "printType": "BOOK",
+       "categories": [
+        "Biography & Autobiography"
+       ],
+       "averageRating": 5.0,
+       "ratingsCount": 1,
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": true,
+       "contentVersion": "preview-1.0.0",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=voc5XDcy3EkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=voc5XDcy3EkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.com/books?id=voc5XDcy3EkC&printsec=frontcover&dq=intitle:hatchet&hl=&cd=4&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=voc5XDcy3EkC&source=gbs_api",
+       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=voc5XDcy3EkC"
+      },
+      "saleInfo": {
+       "country": "US",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 3.97,
+        "currencyCode": "USD"
+       },
+       "retailPrice": {
+        "amount": 3.97,
+        "currencyCode": "USD"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=voc5XDcy3EkC&rdid=book-voc5XDcy3EkC&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 3970000.0,
+          "currencyCode": "USD"
+         },
+         "retailPrice": {
+          "amountInMicros": 3970000.0,
+          "currencyCode": "USD"
+         },
+         "giftable": true
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "US",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.com/books/download/Hatchet_Study_Guide-sample-epub.acsm?id=voc5XDcy3EkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.com/books/download/Hatchet_Study_Guide-sample-pdf.acsm?id=voc5XDcy3EkC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=voc5XDcy3EkC&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "The perfect companion to Gary Paulsen’s &quot;Hatchet,&quot; this study guide contains a chapter by chapter analysis of the book, a summary of the plot, and a guide to major characters and themes."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "3BnwlgmGXBgC",
+      "etag": "ExZyyOGk15g",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3BnwlgmGXBgC",
+      "volumeInfo": {
+       "title": "The Old Hatchet",
+       "authors": [
+        "Nicole Teegarden"
+       ],
+       "publisher": "Xlibris Corporation",
+       "publishedDate": "2012-03-22",
+       "description": "A thriller for people of all ages, especially teens. This story is about a high school student named Jake, who enjoys spending most of his time with his group of friends. As Halloween sits right around the corner, Jake discovers that his elderly neighbor has gone missing and has a feeling that Mr. Jenkins, the old man he used to do yard work for and husband of the woman, is the one that caused the disappearance. The group of friends decide to investigate on Halloween night after leaving a costume party. The only thing they dread to discover is Mr. Jenkins and his trusty hatchet by his side. Will the teens make it out of the old dusty house alive? Find out in The Old Hatchet! This is a short book recommended for horror and mystery fans who love to be on the edge of their seats.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781469177311"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1469177315"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": true
+       },
+       "pageCount": 63,
+       "printType": "BOOK",
+       "categories": [
+        "Fiction"
+       ],
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": false,
+       "contentVersion": "0.4.4.0.preview.3",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=3BnwlgmGXBgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=3BnwlgmGXBgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.com/books?id=3BnwlgmGXBgC&printsec=frontcover&dq=intitle:hatchet&hl=&cd=5&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=3BnwlgmGXBgC&source=gbs_api",
+       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=3BnwlgmGXBgC"
+      },
+      "saleInfo": {
+       "country": "US",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 3.99,
+        "currencyCode": "USD"
+       },
+       "retailPrice": {
+        "amount": 3.99,
+        "currencyCode": "USD"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=3BnwlgmGXBgC&rdid=book-3BnwlgmGXBgC&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 3990000.0,
+          "currencyCode": "USD"
+         },
+         "retailPrice": {
+          "amountInMicros": 3990000.0,
+          "currencyCode": "USD"
+         },
+         "giftable": true
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "US",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.com/books/download/The_Old_Hatchet-sample-epub.acsm?id=3BnwlgmGXBgC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.com/books/download/The_Old_Hatchet-sample-pdf.acsm?id=3BnwlgmGXBgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=3BnwlgmGXBgC&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "Will the teens make it out of the old dusty house alive? Find out in The Old Hatchet! This is a short book recommended for horror and mystery fans who love to be on the edge of their seats."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "Z-MYPJrSIMgC",
+      "etag": "oarE4rVPHRE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Z-MYPJrSIMgC",
+      "volumeInfo": {
+       "title": "Burying the Hatchet",
+       "authors": [
+        "Chris Well"
+       ],
+       "publisher": "Barbour Publishing",
+       "publishedDate": "2011",
+       "description": "What happens when a psychic and a minister are invited to a debate, and both walk into the room but only one leaves alive? Longtime grump Earl Walker thinks it may be time to find a different church as his new pastor is now a suspect in murder. But can Earl’s lady friend convince him to stand up for his newfound friends and fight for the truth?",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781607422365"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1607422360"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": false
+       },
+       "pageCount": 256,
+       "printType": "BOOK",
+       "categories": [
+        "Fiction"
+       ],
+       "averageRating": 5.0,
+       "ratingsCount": 3,
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": false,
+       "contentVersion": "1.1.2.0.preview.2",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=Z-MYPJrSIMgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=Z-MYPJrSIMgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.com/books?id=Z-MYPJrSIMgC&printsec=frontcover&dq=intitle:hatchet&hl=&cd=6&source=gbs_api",
+       "infoLink": "http://books.google.com/books?id=Z-MYPJrSIMgC&dq=intitle:hatchet&hl=&source=gbs_api",
+       "canonicalVolumeLink": "https://books.google.com/books/about/Burying_the_Hatchet.html?hl=&id=Z-MYPJrSIMgC"
+      },
+      "saleInfo": {
+       "country": "US",
+       "saleability": "NOT_FOR_SALE",
+       "isEbook": false
+      },
+      "accessInfo": {
+       "country": "US",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.com/books/download/Burying_the_Hatchet-sample-epub.acsm?id=Z-MYPJrSIMgC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=Z-MYPJrSIMgC&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "What happens when a psychic and a minister are invited to a debate, and both walk into the room but only one leaves alive?"
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "h5TuLGephDwC",
+      "etag": "e+X2/JEXtBw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/h5TuLGephDwC",
+      "volumeInfo": {
+       "title": "Methodist Hatchet",
+       "authors": [
+        "Ken Babstock"
+       ],
+       "publisher": "House of Anansi",
+       "publishedDate": "2011-04-30",
+       "description": "Shortlisted for the Griffin Poetry Prize and the Trillium Book Award Marooned in the shiftless, unnamed space between a map of the world and a world of false maps, the poems in Methodist Hatchet cling to what’s necessary from each, while attempting to sing their own bewilderment. Carolinian forest echoes back as construction cranes in an urban skyline. Second Life returns as wildlife, as childhood. Even the poem itself -- the idea of a poem -- as a unit of understanding is shadowed by a great unknowing. Fearless in its language, its trajectories and frames of reference, Methodist Hatchet gazes upon the objects of its attention until they rattle and exude their auras of strangeness. It is this strangeness, this mysterious stillness, that is the big heart of Ken Babstock’s playful, fierce, intelligent book.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781770891586"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1770891587"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": true
+       },
+       "pageCount": 112,
+       "printType": "BOOK",
+       "categories": [
+        "Poetry"
+       ],
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": false,
+       "contentVersion": "1.5.5.0.preview.3",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=h5TuLGephDwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=h5TuLGephDwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.com/books?id=h5TuLGephDwC&printsec=frontcover&dq=intitle:hatchet&hl=&cd=7&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=h5TuLGephDwC&source=gbs_api",
+       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=h5TuLGephDwC"
+      },
+      "saleInfo": {
+       "country": "US",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 18.95,
+        "currencyCode": "USD"
+       },
+       "retailPrice": {
+        "amount": 9.99,
+        "currencyCode": "USD"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=h5TuLGephDwC&rdid=book-h5TuLGephDwC&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 1.895E7,
+          "currencyCode": "USD"
+         },
+         "retailPrice": {
+          "amountInMicros": 9990000.0,
+          "currencyCode": "USD"
+         },
+         "giftable": true
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "US",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.com/books/download/Methodist_Hatchet-sample-epub.acsm?id=h5TuLGephDwC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.com/books/download/Methodist_Hatchet-sample-pdf.acsm?id=h5TuLGephDwC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=h5TuLGephDwC&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "Shortlisted for the Griffin Poetry Prize and the Trillium Book Award Marooned in the shiftless, unnamed space between a map of the world and a world of false maps, the poems in Methodist Hatchet cling to what’s necessary from each, while ..."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "WO_cfDHDIYYC",
+      "etag": "4wRyLT/F6xk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/WO_cfDHDIYYC",
+      "volumeInfo": {
+       "title": "A Guide for Using Hatchet in the Classroom",
+       "authors": [
+        "Donna Ickes"
+       ],
+       "publisher": "Teacher Created Resources",
+       "publishedDate": "1994",
+       "description": "This literature unit is used with Hatchet, by Gary Paulsen. Included are sample lesson plans, biographical sketch of the author, book summary, book report ideas and more.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781557344496"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1557344493"
+        }
+       ],
+       "readingModes": {
+        "text": false,
+        "image": false
+       },
+       "pageCount": 48,
+       "printType": "BOOK",
+       "categories": [
+        "Education"
+       ],
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": false,
+       "contentVersion": "0.0.1.0.preview.0",
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=WO_cfDHDIYYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=WO_cfDHDIYYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.com/books?id=WO_cfDHDIYYC&printsec=frontcover&dq=intitle:hatchet&hl=&cd=8&source=gbs_api",
+       "infoLink": "http://books.google.com/books?id=WO_cfDHDIYYC&dq=intitle:hatchet&hl=&source=gbs_api",
+       "canonicalVolumeLink": "https://books.google.com/books/about/A_Guide_for_Using_Hatchet_in_the_Classro.html?hl=&id=WO_cfDHDIYYC"
+      },
+      "saleInfo": {
+       "country": "US",
+       "saleability": "NOT_FOR_SALE",
+       "isEbook": false
+      },
+      "accessInfo": {
+       "country": "US",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": false
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=WO_cfDHDIYYC&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "Teaching literature unit based on the popular children&#39;s story, Hatchet."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "7WUPCAAAQBAJ",
+      "etag": "ofna/FrncmU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7WUPCAAAQBAJ",
+      "volumeInfo": {
+       "title": "Night Of The Hatchet",
+       "authors": [
+        "A.W. Hammock"
+       ],
+       "publisher": "Lulu.com",
+       "publishedDate": "2014-12-23",
+       "description": "When former Delta Force Operator Caleb Cook uncovers a plot involving a deadly terrorist cell, partnered with a ruthless drug cartel, his life and the lives of his family and countrymen will be in constant danger unless Cook can stay one step ahead of the violent men planning to use a deadly weapon to strike deep into the heart of America.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781483421223"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1483421228"
+        }
+       ],
+       "readingModes": {
+        "text": false,
+        "image": true
+       },
+       "pageCount": 228,
+       "printType": "BOOK",
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": false,
+       "contentVersion": "0.1.0.0.preview.1",
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=7WUPCAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=7WUPCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.com/books?id=7WUPCAAAQBAJ&printsec=frontcover&dq=intitle:hatchet&hl=&cd=9&source=gbs_api",
+       "infoLink": "http://books.google.com/books?id=7WUPCAAAQBAJ&dq=intitle:hatchet&hl=&source=gbs_api",
+       "canonicalVolumeLink": "https://books.google.com/books/about/Night_Of_The_Hatchet.html?hl=&id=7WUPCAAAQBAJ"
+      },
+      "saleInfo": {
+       "country": "US",
+       "saleability": "NOT_FOR_SALE",
+       "isEbook": false
+      },
+      "accessInfo": {
+       "country": "US",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": false
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=7WUPCAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "When former Delta Force Operator Caleb Cook uncovers a plot involving a deadly terrorist cell, partnered with a ruthless drug cartel, his life and the lives of his family and countrymen will be in constant danger unless Cook can stay one ..."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "tcRMAgAAQBAJ",
+      "etag": "CEkw+0IZTcM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/tcRMAgAAQBAJ",
+      "volumeInfo": {
+       "title": "Hatchet Jobs and Hardball",
+       "subtitle": "The Oxford Dictionary of American Political Slang",
+       "authors": [
+        "Grant Barrett"
+       ],
+       "publisher": "Oxford University Press, USA",
+       "publishedDate": "2004",
+       "description": "A collection of more than six hundred slang terms of American political speech encompasses informative entries on words such as \"boondoggle,\" \"juice bill,\" and \"Joe Citizen,\" including both the definition of the word and its historical background.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9780195176858"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "0195176855"
+        }
+       ],
+       "readingModes": {
+        "text": false,
+        "image": true
+       },
+       "pageCount": 302,
+       "printType": "BOOK",
+       "categories": [
+        "Political Science"
+       ],
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": false,
+       "contentVersion": "preview-1.0.0",
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=tcRMAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=tcRMAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.com/books?id=tcRMAgAAQBAJ&printsec=frontcover&dq=intitle:hatchet&hl=&cd=10&source=gbs_api",
+       "infoLink": "http://books.google.com/books?id=tcRMAgAAQBAJ&dq=intitle:hatchet&hl=&source=gbs_api",
+       "canonicalVolumeLink": "https://books.google.com/books/about/Hatchet_Jobs_and_Hardball.html?hl=&id=tcRMAgAAQBAJ"
+      },
+      "saleInfo": {
+       "country": "US",
+       "saleability": "NOT_FOR_SALE",
+       "isEbook": false
+      },
+      "accessInfo": {
+       "country": "US",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": false
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=tcRMAgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "A collection of more than six hundred slang terms of American political speech encompasses informative entries on words such as &quot;boondoggle,&quot; &quot;juice bill,&quot; and &quot;Joe Citizen,&quot; including both the definition of the word and its historical ..."
+      }
+     }
+    ]
+   }
