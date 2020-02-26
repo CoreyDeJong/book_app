@@ -47,9 +47,11 @@ function collectFormData(request, response) {
             let book = new Newbook(resultsArray.volumeInfo);
             // })
             // console.log('superagent results', book);
-            response.render('./pages/searches/show.ejs', {Obj: book});
+            response.render('./pages/searches/show.ejs', {Book: book});
+            
         })
         .catch(() => {
+            response.render('./pages/searches/error.ejs');
             console.log('promise error');
         });
 }
