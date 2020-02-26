@@ -14,6 +14,8 @@ app.use(express.static('./public/'));
 //tells the server(express) to use the ejs template view engine
 app.set('view engine', 'ejs')
 
+app.use(express.urlencoded({extended: true}));
+
 //putting the ejs file into view on the front end
 app.get('/', (req, res) => {
     res.render('./pages/index.ejs');
@@ -22,7 +24,9 @@ app.post('/searches', collectFormData);
 
 
 function collectFormData(request, response) {
+    console.log('request.body console log....', request.body);
     let formData = request.body.search;
+    console.log('formData console .....', formData);
     let nameOfBookOrAuthor = formData[0];
     let isAuthorOrTitle = formData[1];
 
