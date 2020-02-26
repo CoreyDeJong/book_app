@@ -48,8 +48,10 @@ function collectFormData(request, response) {
             // })
             // console.log('superagent results', book);
             response.render('./pages/searches/show.ejs', {Book: book});
+            
         })
         .catch(() => {
+            response.render('./pages/searches/error.ejs');
             console.log('promise error');
         });
 }
