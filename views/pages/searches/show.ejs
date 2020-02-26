@@ -11,12 +11,15 @@
     <main>
       <h2>Search Results</h2>
       <div>
-      <img src="<%= Book.image %>" alt="image">
-      <section>
-        <h4><%= Book.booktitle %></h4>
-        <h6><%= Book.authorname %></h6>
-        <p><%= Book.bookdescription %></p>
-      </section>
+        <% Book.forEach(value => { %>
+
+          <img src="<%= value.image %>" alt="image">
+          <section>
+            <h4><%= value.booktitle %></h4>
+            <h6><%= value.authorname %></h6>
+            <p><%= value.bookdescription %></p>
+          </section>
+        <% }) %>
       </div>
     </main>
   </body>

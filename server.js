@@ -42,12 +42,18 @@ function collectFormData(request, response) {
 
     superagent.get(url)
         .then(results => {
-            let resultsArray = results.body.items[0];
+            let resultsArray = results.body.items;
+            let eachItem = resultsArray.map(value => {
+                new Newbook(value.volumeInfo)
+            })
+
             // const finalArray = resultsArray.map(book => {
-            let book = new Newbook(resultsArray.volumeInfo);
+            // let book = new Newbook(resultsArray.volumeInfo);
             // })
-            // console.log('superagent results', book);
-            response.render('./pages/searches/show.ejs', {Book: book});
+
+
+            console.log('superagent results', eachItem);
+            response.render('./pages/searches/show.ejs', {Book: eachItem});
             
         })
         .catch(() => {
@@ -65,6 +71,7 @@ function collectFormData(request, response) {
 
 // card 3, step 2, need to complete
 function Newbook(obj) {
+    console.log("constructor obj.....", obj);
     this.booktitle = obj.title || 'Chuck Norris Says No';
     this.authorname = obj.authors[0] || 'Chuck Norris Says No';
     this.bookdescription = obj.description || 'Chuck Norris Says No';
