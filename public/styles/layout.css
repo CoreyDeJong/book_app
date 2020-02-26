@@ -1,0 +1,63 @@
+/* wireframes, major elements, 
+
+nav */
+
+
+
+main {
+    height: 700px;
+    /* width: 200px; */
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-template-rows: 10% 75px 100px 100px 100px 100px auto ;
+    /* grid-column: 3 / span 2; */
+    align-self: center;
+
+}
+
+h4 {
+    grid-column: 1 / 4;
+    grid-row-start: 2;
+    text-align: center;
+    justify-self: stretch;
+    
+}
+
+form {
+    display: grid;
+    grid-column-start: 2;
+    grid-row: 3 / 7;
+    text-align: center;
+    justify-self: stretch;
+    background-color: red;
+    grid-template-rows: 80px 80px 80px 80px;
+    grid-row-gap: 20px;
+    text-align: left;
+    line-height: 100px;
+    color: white;
+}
+
+
+
+/* #search-field {
+    grid-column-start: 2;
+    grid-row-start: 4;
+    text-align: center;
+    justify-self: stretch;
+    background-color: red;
+} */
+
+
+
+/* .container {
+    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-rows: 25% 100px auto;
+  } */
+
+
+
+
+
+
+  @media all and (max-width: 1024px);
+
