@@ -21,6 +21,7 @@ app.get('/', (req, res) => {
     res.render('./pages/index.ejs');
 });
 app.get('/searches', renderForm);
+// app.post('/searches', addFavorite);
 app.post('/searches', collectAPIData);
 // app.get('/books/:id', displayOneBook);
 
@@ -55,9 +56,15 @@ function collectAPIData(request, response) {
             response.render('./pages/searches/show.ejs', { Book: eachItem });
         })
         .catch((err) => {
-            response.render('./pages/searches/error.ejs')
+            response.render('./pages/error.ejs')
             console.log('promise error:', err);
         })
+}
+
+function addFavorite(req, res){
+
+
+
 }
 
 // function displayOneBook(req, res) {
@@ -77,9 +84,9 @@ function collectAPIData(request, response) {
 // })
 
 
-
 // card 3, step 2, need to complete
 function Newbook(obj) {
+    // this.id = eachItem.length;
     // console.log("constructor obj.....", obj);
     this.authorname = (obj.authors) ? obj.authors : 'Chuck Norris Says No',
     this.booktitle = (obj.title) ? obj.title : 'Chuck Norris Says No',
