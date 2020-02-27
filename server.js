@@ -20,11 +20,18 @@ const client = new pg.Client(process.env.DATABASE_URL);
 app.get('/', (req, res) => {
     res.render('./pages/index.ejs');
 });
-// app.get('/books/:book_id', displayOneBook);
-app.post('/searches', collectFormData);
+app.get('/searches', renderForm);
+app.post('/searches', collectAPIData);
+// app.get('/books/:id', displayOneBook);
+
+
+function renderForm(req, res){
+    res.render('./pages/searches/new.ejs');
+} 
+// views\pages\searches\new.ejs
 
 let eachItem = [];
-function collectFormData(request, response) {
+function collectAPIData(request, response) {
     let formData = request.body.search;
     let nameOfBookOrAuthor = formData[0];
     let isAuthorOrTitle = formData[1];
