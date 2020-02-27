@@ -20,11 +20,18 @@ const client = new pg.Client(process.env.DATABASE_URL);
 app.get('/', (req, res) => {
     res.render('./pages/index.ejs');
 });
-// app.get('/books/:book_id', displayOneBook);
-app.post('/searches', collectFormData);
+app.get('/searches', renderForm);
+app.post('/searches', collectAPIData);
+// app.get('/books/:id', displayOneBook);
 
-const eachItem = [];
-function collectFormData(request, response) {
+
+function renderForm(req, res){
+    res.render('./pages/searches/new.ejs');
+} 
+// views\pages\searches\new.ejs
+
+let eachItem = [];
+function collectAPIData(request, response) {
     let formData = request.body.search;
     let nameOfBookOrAuthor = formData[0];
     let isAuthorOrTitle = formData[1];
@@ -36,6 +43,7 @@ function collectFormData(request, response) {
         url += `+inauthor:${nameOfBookOrAuthor}`;
     }
     // let eachItem = [];//FEB26... have a promise error; trying to fix it. Books are showing up thru constructor function, but not afterwards
+    console.log("^%^%^%^", url);
     superagent.get(url)
         .then(results => {
             let resultsArray = results.body.items;
@@ -73,12 +81,16 @@ function collectFormData(request, response) {
 // card 3, step 2, need to complete
 function Newbook(obj) {
     // console.log("constructor obj.....", obj);
-    this.booktitle = obj.title || 'Chuck Norris Says No';
-    this.authorname = obj.authors[0] || 'Chuck Norris Says No';
-    this.bookdescription = obj.description || 'Chuck Norris Says No';
-    this.image = obj.imageLinks.thumbnail || 'https://www.freeiconspng.com/uploads/book-icon--icon-search-engine-6.png';
-    console.log('*&*&*&*&', this);
-    // eachItem.push(this);////FEB26... have a promise error; trying to fix it. Books are showing up thru constructor function, but not afterwards
+    this.authorname = (obj.authors) ? obj.authors : 'Chuck Norris Says No',
+    this.booktitle = (obj.title) ? obj.title : 'Chuck Norris Says No',
+        this.isbn = (obj.industryIdentifiers) ? obj.industryIdentifiers[0].identifier : 'Chuck Norris Says No',
+    this.image = (obj.imageLinks) ? obj.imageLinks.thumbnail : 'https://www.freeiconspng.com/uploads/book-icon--icon-search-engine-6.png',
+    // this.image = 'https://www.freeiconspng.com/uploads/book-icon--icon-search-engine-6.png',    
+    this.bookdescription = (obj.description) ? obj.description : 'Chuck Norris Says No',
+    this.bookshelf = '',
+
+    console.log('*&*&*&*&', this),
+    eachItem.push(this);////FEB26... have a promise error; trying to fix it. Books are showing up thru constructor function, but not afterwards
 }
 
 
