@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS myfavorites;
 
 CREATE TABLE myfavorites(
   id SERIAL PRIMARY KEY,

@@ -3,18 +3,18 @@
 require('dotenv').config();
 const express = require('express');
 const app = express();
+app.use(express.static('./public/'));
+app.set('view engine', 'ejs')
+app.use(express.urlencoded({ extended: true }));
 
 const PORT = process.env.PORT || 3001;
-
+const pg = require('pg');
 const superagent = require('superagent');
-
 require('ejs');
-app.use(express.static('./public/'));
+const client = new pg.Client(process.env.DATABASE_URL);
 
 //tells the server(express) to use the ejs template view engine
-app.set('view engine', 'ejs')
 
-app.use(express.urlencoded({extended: true}));
 
 //putting the ejs file into view on the front end
 app.get('/', (req, res) => {
@@ -53,8 +53,8 @@ function collectFormData(request, response) {
 
 
             console.log('superagent results', eachItem);
-            response.render('./pages/searches/show.ejs', {Book: eachItem});
-            
+            response.render('./pages/searches/show.ejs', { Book: eachItem });
+
         })
         .catch(() => {
             response.render('./pages/searches/error.ejs');
